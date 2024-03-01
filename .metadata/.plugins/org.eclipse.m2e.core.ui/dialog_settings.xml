@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\USER\Desktop\developブランチ\teav-backend"/>
+			<item value="C:\Users\USER\Desktop\teav-backend"/>
+			<item value="C:\Users\USER\Desktop\spring-boot-adv-3.0\spring-rest2"/>
+			<item value="C:\Users\USER\Desktop\spring-boot-adv-3.0\spring-rest1"/>
+			<item value="C:\Users\USER\Desktop\spring-boot-intro-2.7\spring-jpa3"/>
+			<item value="C:\Users\USER\Desktop\spring-boot-intro-2.7\spring-jpa2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="720"/>
+		<item key="y" value="166"/>
+	</section>
+</section>

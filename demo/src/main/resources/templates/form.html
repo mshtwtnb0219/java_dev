@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{confirm}" method="post">
+		<label>
+			メッセージ：
+			<input type="text" name = "message">
+		</label>
+		<button>送信</button>
+	</form>
+
+</body>
+</html>

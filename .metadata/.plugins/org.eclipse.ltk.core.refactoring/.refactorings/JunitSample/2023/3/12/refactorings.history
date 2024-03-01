@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from プロジェクト &apos;JunitSample&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;JunitSample&apos;&#x0D;&#x0A;- オリジナル要素: &apos;jp.co.tmx.CalMainTest.java&apos;" description="要素を削除" element1="/src\/main\/java&lt;jp.co.tmx{CalMainTest.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1679232697524" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package com.example.samuraitravel.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.samuraitravel.repository.HouseRepository;
+
+@Controller
+@RequestMapping("/admin/houses")
+public class AdminHouseController {
+	
+	private final HouseRepository houseRepository;
+	
+	public AdminHouseController(HouseRepository houseRepository) {
+		this.houseRepository = houseRepository;
+		
+	}
+	
+	public String
+
+	
+}

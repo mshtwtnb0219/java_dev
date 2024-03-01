@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;demo-1/src/main/resources/templates/from.html&apos; を &apos;form.html&apos; に変更します" description="リソース &apos;from.html&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/from.html" name="form.html" stamp="1675494928608" updateReferences="true"/>
+</session>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <!-- レイアウトで使わないので、th:remove="tag"は不要です -->
+  <meta charset="UTF-8">
+</head>
+<body>
+
+  <!-- サイドバー折りたたみ時のトグルボタン -->
+  <div th:fragment="toggler">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+          aria-expanded="false"
+          aria-label="Toggle offcanvas">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+package com.example.samuraitravel.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name = "house")
+public class House {
+	
+	private Integer id;
+	
+	
+
+	
+	
+}

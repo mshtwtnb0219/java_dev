@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="型 &apos;com.example.demo.repository.Department&apos; を &apos;DepartmentRepository&apos; に名前変更します&#x0D;&#x0A;- 元のプロジェクト: &apos;demo-4&apos;&#x0D;&#x0A;- オリジナル要素: &apos;com.example.demo.repository.Department&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;com.example.demo.repository.DepartmentRepository&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新&#x0D;&#x0A;- コメントおよびストリング内のテキスト出現箇所の更新" description="型名 &apos;Department&apos; を変更します" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.demo.repository{Department.java[Department" matchStrategy="1" name="DepartmentRepository" qualified="false" references="true" similarDeclarations="false" stamp="1675504672840" textual="false" version="1.0"/>
+</session>

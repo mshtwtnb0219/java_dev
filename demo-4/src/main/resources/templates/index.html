@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+  layout:decorate="~{layout/layout}">
+<head>
+  <meta charset="UTF-8" th:remove="tag">
+</head>
+<body>
+
+  <!-- コンテンツの表示 -->
+  <div layout:fragment="content">
+    <main class="offcanvas-outside bg-light">
+      <div class="container-fluid">
+
+        <!-- トグルボタン -->
+        <div th:replace="~{fragments/sidebar :: toggler}">
+        </div>
+
+        <div class="row">
+          <div class="col">
+
+            <div class="card shadow">
+              <div class="card-header">
+                <h6 class="text-navy my-2">
+                  社員一覧
+                </h6>
+              </div>
+              <div class="card-body">
+
+                <div th:if="${employees.size() == 0}">
+                  該当データがありません
+                </div>
+
+                <table th:if="${employees.size() > 0}"
+                  class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>名前</th>
+                      <th>部署名</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr th:each="employee : ${employees}"
+                      th:object="${employee}">
+                      <td th:text="*{id}"></td>
+                      <td th:text="*{name}"></td>
+                      <td th:text="*{department.name}"></td>
+                      <td>
+                        <a th:href="@{/edit/{id}(id=*{id})}"
+                          class="btn btn-navy">
+                          <i class="bi bi-pencil-square"></i>
+                          編集
+                        </a>
+
+                        <a th:href="@{/delete/{id}(id=*{id})}"
+                          class="btn btn-danger">
+                          <i class="bi bi-trash-fill"></i>
+                          削除
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+</html>
