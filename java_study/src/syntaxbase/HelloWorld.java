@@ -3,6 +3,16 @@ package syntaxbase;
 public class HelloWorld {
 
 	public static void main(String[] args) {
+		
+		
+		Product apple = new Product("りんご", 1000, 10);
+		Product cofee = new Product("り珈琲", 500, 10);
+		
+		apple.takeOrder(9);
+		cofee.takeOrder(100);
+		
+		
+		
 		// TODO 自動生成されたメソッド・スタブ
 		System.out.println(100);
 		System.out.println(0);
@@ -149,4 +159,9 @@ public class HelloWorld {
 		}
 
 	}
+	
+
+	
+	
+	
 }
