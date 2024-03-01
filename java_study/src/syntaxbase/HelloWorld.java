@@ -3,6 +3,7 @@ package syntaxbase;
 public class HelloWorld {
 
 	public static void main(String[] args) {
+
 		
 		
 		Product apple = new Product("りんご", 1000, 10);
@@ -134,6 +135,9 @@ public class HelloWorld {
 		cal(100, 200);
 		int i = call("あ");
 		System.out.println(i);
+		
+		
+
 	}
 
 	// クラス名

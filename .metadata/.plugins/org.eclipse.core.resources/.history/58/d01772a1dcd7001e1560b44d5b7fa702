@@ -1,0 +1,16 @@
+package syntaxbase;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+		
+		Capsule_Tanaka1 aa = new Capsule_Tanaka1();
+		aa.output();
+		aa.getI();
+		aa.setI(12345);
+
+	}
+
+}
