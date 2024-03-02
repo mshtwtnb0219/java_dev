@@ -1,0 +1,20 @@
+package text.section_17;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+		// Keisyo_Kato6インスタンスを親クラスのKeisyo_Human6へ代入	
+		Keisyo_Human6 k = new Keisyo_Kato6();
+		// Keisyo_Tanaka6インスタンスを親クラスのKeisyo_Human6へ代入	
+		Keisyo_Human6 t = new Keisyo_Tanaka6();
+		
+	     //Keisyo_Kato7インスタンスのoutputメソッドを実行	
+	      kato.output();
+	      //Keisyo_Tanaka7インスタンスのoutputメソッドを実行
+	      tanaka.output();
+
+	}
+
+}

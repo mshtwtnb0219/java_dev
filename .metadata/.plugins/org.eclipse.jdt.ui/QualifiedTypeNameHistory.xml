@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jp.teav.teavbackend.users.model.Users"/>
-    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="syntaxbase.HelloWorld"/>
+    <fullyQualifiedTypeName name="java.net.SocketTimeoutException"/>
+    <fullyQualifiedTypeName name="syntaxbase.Product"/>
+    <fullyQualifiedTypeName name="syntaxbase.Capsule_Tanaka1"/>
 </qualifiedTypeNameHistroy>

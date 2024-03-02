@@ -1,0 +1,15 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// ArrayListの宣言
+		ArrayList<String> array = new ArrayList<>();
+		array.add("test");
+		
+	}
+
+}
