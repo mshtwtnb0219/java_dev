@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="springfox.documentation.swagger2.annotations.EnableSwagger2"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-    <fullyQualifiedTypeName name="java.sql.Time"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="atCoderProject.ABC086A"/>
     <fullyQualifiedTypeName name="atCoderProject.ABC081A"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
@@ -60,4 +50,14 @@
     <fullyQualifiedTypeName name="java.net.SocketTimeoutException"/>
     <fullyQualifiedTypeName name="syntaxbase.Product"/>
     <fullyQualifiedTypeName name="syntaxbase.Capsule_Tanaka1"/>
+    <fullyQualifiedTypeName name="syntaxbase.Main"/>
+    <fullyQualifiedTypeName name="syntaxbase.Human1"/>
+    <fullyQualifiedTypeName name="syntaxbase.HUmanAbstract"/>
+    <fullyQualifiedTypeName name="syntaxbase.HumanAbstractExtends"/>
+    <fullyQualifiedTypeName name="text.section_17.Keisyo_Human6"/>
+    <fullyQualifiedTypeName name="text.section_17.Keisyo_Kato6"/>
+    <fullyQualifiedTypeName name="text.section_17.Keisyo_Tanaka6"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="collection.Main"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

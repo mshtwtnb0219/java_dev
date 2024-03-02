@@ -1,0 +1,22 @@
+package Scanner;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		// Scannerクラスのオブジェクトを生成する
+		Scanner sc = new Scanner(System.in);
+		// 入力した内容を取得する
+		String str = sc.next();
+		
+		System.out.println(str);
+		
+		
+		
+		
+
+	}
+
+}
