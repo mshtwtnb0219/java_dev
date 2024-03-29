@@ -1,5 +1,0 @@
-package syntaxbase;
-
-public class Human1  extends Human{
-
-}

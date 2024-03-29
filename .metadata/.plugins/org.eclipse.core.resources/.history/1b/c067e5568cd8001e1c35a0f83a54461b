@@ -1,8 +1,0 @@
-package Exception;
-
-public class ExceptionScanner {
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-	}
-}

@@ -1,9 +1,0 @@
-package syntaxbase;
-
-public class HumanAbstractExtends extends HumanAbstract {
-
-	// 抽象メソッドを具体化
-	void method() {
-		System.out.println("具体化");
-	}
-}

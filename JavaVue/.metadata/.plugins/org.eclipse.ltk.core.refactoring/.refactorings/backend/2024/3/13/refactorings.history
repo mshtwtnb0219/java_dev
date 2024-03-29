@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;backend/src/main/java/com/example/demo/controler&apos; を &apos;controller&apos; に変更します" description="リソース &apos;controler&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/example/demo/controler" name="controller" stamp="1711688239179" updateReferences="true"/>
+</session>

@@ -5471,3 +5471,4 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2024-03-24 14:19:10,803 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-03-24 14:20:11,714 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-03-24 14:20:11,741 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 16 resources from src\main\resources to target\classes
+2024-03-24 14:20:11,792 [Worker-4: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\USER\Desktop\Java\samuraitravel\src\test\resources
